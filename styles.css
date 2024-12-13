@@ -1,0 +1,103 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Krub", sans-serif;
+
+}
+.main-wrapper{
+    background-color: aqua;
+    height:100vh;
+    background-image: 
+    linear-gradient(to bottom, #000000f6,#00000022, #000000bb),
+    url(./background\ tinder.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    margin-top: -30px;
+    padding-bottom: 10px;
+ 
+}
+nav{
+    display: flex;
+    font-size: 100x;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight:bold;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color:white;
+}
+a:active{
+    color: white;
+}
+.language{
+    color: white;
+    size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-left{
+    display:flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+    margin-left: 55%;
+    gap: 50px;
+    font-weight: 100;
+}
+.log-in{
+    background-color: white;
+    padding: 10px;
+    height: 18px;
+    margin-top: -7px;
+    border-radius: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.Swipe{  
+    color:white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.create-account{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right,rgb(213, 9, 63),rgb(237, 9, 77),rgb(232, 61, 30));
+    background-color: red;
+    padding: 10px;
+    margin-left: 45%;
+    border-radius: 50px;
+    width: 200px;
+}
